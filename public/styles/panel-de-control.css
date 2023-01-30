@@ -1,0 +1,82 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background-color: #0C231E;
+    width: 100%;
+    padding: 15px;
+    margin-top: -47px;
+}
+
+nav div{
+    width: 70%;
+    margin: auto;
+}
+
+nav img{
+    width: 8%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+.swal2-icon.swal2-success{
+    font-size: 15px;
+}
+
+.swal2-close{
+    text-decoration: none;
+    font-size: 40px !important;
+}
+
+.fila{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 30rem;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer{
+    background-color: #12322b;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+footer img{
+    width: 80%;
+}
+
+.pleca{
+    width: 100%;
+    background-image: url("/images/pleca.svg");
+    background-repeat: repeat-x;
+}
+
+form{
+    text-align: start;
+}
+
+form label{
+    font-size: 18px;
+}

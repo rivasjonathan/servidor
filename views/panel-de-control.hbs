@@ -1,0 +1,75 @@
+{{> header}}
+<input type="hidden" id="token" value="{{token}}">
+<input type="hidden" value="0" id="pagina">
+
+<nav>
+    <div>
+        <img src="/images/gobierno-de-mexico.svg" alt="">
+        <a href="https://www.gob.mx/gobierno">Gobierno</a>
+        <a href="https://www.gob.mx/tramites">Trámites</a>
+    </div>
+</nav>
+
+<div style="text-align: center;">
+    <h2>Administrador</h2>
+    <h3>Panel de control</h3>
+    <h4>Certificados</h4>
+</div>
+
+<div class="container">
+    <label for="buscar">Buscar:</label>
+    <div class="input-group" style="width: 100%;">
+        <input type="search" class="form-control" style="width: 90%;" id="buscar">
+        <span class="input-group-text">
+            <button class="btn btn-primary" id="agregar" style="height: 40px;"><i class="fa-solid fa-plus"></i></button>
+        </span>   
+    </div>
+    
+    <div id="resultados-busqueda"></div>
+    <div class="fila" id="resultados"></div>
+</div>
+
+<footer>
+    <div style="padding-top: 40px;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="/images/gobierno-de-mexico.svg">
+            </div>
+            <div class="col-sm-3">
+                <p>Enlaces</p>
+
+                <a href="" target="_blank">Participa</a><br>
+                <a href="" target="_blank">Publicaciones Oficiales</a><br>
+                <a href="" target="_blank">Marco Jurídico</a><br>
+                <a href="" target="_blank">Plataforma Nacional de Transparencia</a><br>
+                <a href="" target="_blank">Alerta</a><br>
+                <a href="" target="_blank">Denuncia</a><br>
+
+            </div>
+            <div class="col-sm-3">
+                <p>¿Qué es gob.mx?</p>
+                <p>
+                    Es el portal único de trámites, información y participación ciudadana. <a href="">Leer más</a>
+                </p>
+                <a href="">Portal de datos abiertos</a><br>
+                <a href="">Declaración de accesibilidad</a><br>
+                <a href="">Aviso de privacidad integral</a><br>
+                <a href="">Aviso de privacidad simplificado</a><br>
+                <a href="">Términos y Condiciones</a><br>
+                <a href="">Política de seguridad</a><br>
+                <a href="">Mapa de sitio</a><br>
+            </div>
+            <div class="col-sm-3">
+                <a href="">Denuncia contra servidores públicos</a>
+                <a href="">Síguenos en</a>
+            </div>
+        </div>
+    </div>
+    <div style="padding-top: 80px;"></div>
+    <div class="pleca">
+        <br>
+        <br>
+    </div>
+</footer>
+{{> footer}}
