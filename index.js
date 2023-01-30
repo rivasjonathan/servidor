@@ -11,7 +11,7 @@ app.use(cookieParser())
 const port = process.env.PORT || 8000
 
 //Motor de plantillas
-hbs.registerPartials('./views/partials',)
+hbs.registerPartials('./views/partials')
 app.set('view engine', 'hbs')
 app.set("views", __dirname + "/views")
 //Motor de plantillas
